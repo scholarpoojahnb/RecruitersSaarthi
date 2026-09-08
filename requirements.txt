@@ -1,0 +1,22 @@
+# --- Web UI stack (latest stable with InputTextArea) ---
+solara==1.61.0
+uvicorn==0.30.6
+starlette==0.37.2
+anyio==4.4.0
+
+# --- AI stack ---
+torch==2.2.2+cpu
+sentence-transformers==2.7.0
+transformers==4.43.3
+huggingface-hub==0.23.2
+faiss-cpu==1.15.0
+scikit-learn==1.4.2
+scipy==1.11.4
+numpy==1.26.4   # ✅ aligned with SciPy
+
+# --- Data handling ---
+pandas==2.2.2
+PyPDF2==3.0.1
+python-docx==1.1.2
+python-dotenv==1.0.1
+email-validator==2.1.0
