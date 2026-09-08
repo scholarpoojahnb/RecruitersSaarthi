@@ -1,3 +1,4 @@
+--only-binary=:all:
 # --- Web UI stack ---
 solara==1.28.0
 solara-server==1.61.0
