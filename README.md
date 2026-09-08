@@ -1,12 +1,26 @@
-# CV Ranking Tool (Recruiter's Playground)
+# Recruiter's Saarthi
 
-An AI-powered tool built with [Solara](https://solara.dev/) that:
-- Ranks CVs against a given job description
-- Displays candidate ranking and skill comparison
-- Selects top 5 resumes
-- Sends interview scheduling emails with 3 suggested slots
+Recruiter's Saarthi is an AI-powered assistant for recruiters.  
+It ranks resumes, drafts interview emails, and manages candidate interview slots.
 
 ---
+
+## 🚀 Features
+- Rank resumes against job descriptions
+- Preview and send interview invitation emails
+- Candidate slot scheduling via FastAPI backend
+- Recruiter dashboard for slot management (add/remove/upload CSV)
+- Email history log
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/<your-username>/Recruiters-Saarthi.git
+cd Recruiters-Saarthi
+
 
 ## 📂 Project Structure
 
